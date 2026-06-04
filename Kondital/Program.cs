@@ -16,6 +16,10 @@
                 maxPuls = Convert.ToInt32(Console.ReadLine());
 
                 int kondital = Kondital.BeregnKondital(hvilePuls, maxPuls);
+                Console.WriteLine($"dit kondital er: {kondital} ml/kg/min");
+                double maxIltoptagelse = Kondital.BeregnIltoptagelse(kondital, vægt);
+                Console.WriteLine($"din max iltoptagelse er {maxIltoptagelse} l/ml");
+                //spørg om benævnelsen
             }
             catch (Exception)
             {
