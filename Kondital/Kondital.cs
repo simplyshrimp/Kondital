@@ -8,12 +8,13 @@ namespace Kondital
 {
     public class Kondital
     {
-        public static int BeregnKondital(int hvilePuls, int maxPuls)
+
+        public static double BeregnKondital(int hvilePuls, int maxPuls)
         {
-            double kondital = (maxPuls - hvilePuls) * 15.3;
-            return (int)kondital;
+            double kondital = (maxPuls / hvilePuls) * 15.3;
+            return kondital;
         }
-        public static double BeregnIltoptagelse(int kondital, double vægt)
+        public static double BeregnIltoptagelse(double kondital, double vægt)
         {
             double iltoptagelse = kondital * vægt / 1000;
             return Math.Round(iltoptagelse,1);
