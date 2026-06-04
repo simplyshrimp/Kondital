@@ -4,7 +4,22 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            double vægt;
+            int hvilePuls, maxPuls;
+            try
+            {
+                Console.Write("skriv din vægt i kg: ");
+                vægt = Convert.ToDouble(Console.ReadLine());
+                Console.Write("din hvilepuls: ");
+                hvilePuls = Convert.ToInt32(Console.ReadLine());
+                Console.Write("din maxpuls: ");
+                maxPuls = Convert.ToInt32(Console.ReadLine());
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
     }
 }
