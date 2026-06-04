@@ -8,5 +8,10 @@ namespace Kondital
 {
     public class Kondital
     {
+        public static int BeregnKondital(int hvilePuls, int maxPuls)
+        {
+            double kondital = (maxPuls - hvilePuls) * 15.3;
+            return (int)kondital;
+        }
     }
 }

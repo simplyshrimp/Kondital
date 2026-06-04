@@ -14,6 +14,8 @@
                 hvilePuls = Convert.ToInt32(Console.ReadLine());
                 Console.Write("din maxpuls: ");
                 maxPuls = Convert.ToInt32(Console.ReadLine());
+
+                int kondital = Kondital.BeregnKondital(hvilePuls, maxPuls);
             }
             catch (Exception)
             {
