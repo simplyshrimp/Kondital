@@ -5,8 +5,7 @@
         static void Main(string[] args)
         {
             bool programDone = false;
-            double vægt;
-            int hvilePuls, maxPuls/*, alder, køn*/;
+            double vægt, hvilePuls, maxPuls/*, alder, køn*/;
             //tilfø køn
             do
             {
@@ -28,9 +27,9 @@
                     Console.Write("skriv din vægt i kg: ");
                     vægt = Convert.ToDouble(Console.ReadLine());
                     Console.Write("din hvilepuls: ");
-                    hvilePuls = Convert.ToInt32(Console.ReadLine());
+                    hvilePuls = Convert.ToDouble(Console.ReadLine());
                     Console.Write("din maxpuls: ");
-                    maxPuls = Convert.ToInt32(Console.ReadLine());
+                    maxPuls = Convert.ToDouble(Console.ReadLine());
 
                     //udregninger of udskrivninger
                     double kondital = Kondital.BeregnKondital(hvilePuls, maxPuls);

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36623.8 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kondital", "Kondital\Kondital.csproj", "{C7DA635E-C523-4C1F-9DB1-737143C0FD28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kondital_test", "Kondital_test\Kondital_test.csproj", "{2E882CD0-9118-443A-9915-D2D333660713}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C7DA635E-C523-4C1F-9DB1-737143C0FD28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7DA635E-C523-4C1F-9DB1-737143C0FD28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7DA635E-C523-4C1F-9DB1-737143C0FD28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E882CD0-9118-443A-9915-D2D333660713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E882CD0-9118-443A-9915-D2D333660713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E882CD0-9118-443A-9915-D2D333660713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E882CD0-9118-443A-9915-D2D333660713}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
